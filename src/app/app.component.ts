@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  public title: String;
+  public year: number;
+
+  constructor(){
+    this.title = "ISE - engineering group";
+    this.year = 2020
+  }
 }
