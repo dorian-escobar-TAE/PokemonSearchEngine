@@ -1,0 +1,33 @@
+.contenido{
+    background-image: url(../assets/img/poke.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:900px){
+    .contenido{
+        background-size: 110%;
+    }
+}
+@media screen and (max-width:800px){
+    .contenido{
+        background-size: 120%;
+    }
+}
+@media screen and (max-width:750px){
+    .contenido{
+        background-size: 200%;
+    }
+}
+@media screen and (max-width:500px){
+    .contenido{
+        background-size: 300%;
+    }
+}
+@media screen and (max-width:300px){
+    .contenido{
+        background-size: 500%;
+    }
+}
