@@ -1,3 +1,31 @@
 .contenedor-item-poke{
-    width: 6%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 0.9;
+    width: 12%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    padding: 1% 2%;
+    float: left;
+    margin: 1% 2%;
+}
+.contenedor-item-poke label{
+    font-size: 100%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor-item-poke img{
+    width: 100%;
+    height: 70%;
+}
+.contenedor-item-poke span{
+    font-size: 100%;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
