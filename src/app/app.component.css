@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+    /*contorno*/
+    padding: 10px 0;
+    width: 100%;
+    /*centrar todo*/
+    margin: auto;
+    /*escondenmos si algo se sale del margen*/
+    overflow: hidden;
+}
+
+body, html {
+    width: 100%;
+    max-width: 1000px;
+}
+
+header {
+    width: 100%;
+}
+main {
+}
