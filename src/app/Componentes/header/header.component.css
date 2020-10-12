@@ -1,34 +1,37 @@
 nav {
-    width: 100%;
-    margin-top: 2%;
     background-color: cornflowerblue;
-    margin:0;
+    margin: 2% 0;
+    padding: 0 2%;
 }
-nav img{
+
+nav img {
     width: 20%;
     height: 70px;
     margin: 1%;
 }
-.header{
+
+.header {
     width: 70%;
     float: right;
     margin-top: 2%;
 }
-nav .header label{
+
+nav .header label {
     font-size: 90%;
     margin-right: 1%;
     margin-left: 2%;
 }
-nav .header section{
+
+nav .header section {
     margin-right: 2%;
 }
-nav .header input{
+
+nav .header input {
     border-radius: 10%;
-
 }
-@media screen and (max-width:1200px){
 
-    nav{
+@media screen and (max-width:1200px) {
+    nav {
         float: left;
         flex-direction: column;
         justify-content: space-between;
@@ -37,7 +40,7 @@ nav .header input{
         align-content: center;
         text-align: center;
     }
-    .header{
+    .header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
