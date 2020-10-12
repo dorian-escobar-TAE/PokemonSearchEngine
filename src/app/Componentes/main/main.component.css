@@ -20,16 +20,18 @@ section {
     margin: 1% 2%;
 }
 .contenedor-item-poke label{
+    margin: 5% 0;
     font-size: 100%;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .contenedor-item-poke img{
+    margin: auto;
     width: 100%;
     height: 70%;
 }
 .contenedor-item-poke span{
-    margin: 3% 0;
+    margin: 5% 0;
     font-size: 100%;
     background-color: cadetblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

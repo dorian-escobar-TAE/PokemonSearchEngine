@@ -6,7 +6,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http'
 })
 export class ConsumoPokeAPIService {
 
-  url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=150'
+  url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=151'
 
   constructor(private _http: HttpClient) {
     console.log('inyectando servicio')
