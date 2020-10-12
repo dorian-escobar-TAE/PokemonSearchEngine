@@ -5,8 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentePokeComponent } from './componente-poke/componente-poke.component';
-import { ComponenteHeaderComponent } from './componente-header/componente-header.component';
 import { HeaderComponent } from './Componentes/header/header.component';
 import { MainComponent } from './Componentes/main/main.component';
 import { PokeCardComponent } from './Componentes/main/poke-card/poke-card.component';
@@ -14,8 +12,6 @@ import { PokeCardComponent } from './Componentes/main/poke-card/poke-card.compon
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentePokeComponent,
-    ComponenteHeaderComponent,
     HeaderComponent,
     MainComponent,
     PokeCardComponent,
