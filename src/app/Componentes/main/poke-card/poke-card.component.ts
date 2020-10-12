@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { from } from 'rxjs';
+import { ConsumoPokeAPIService } from '../../../Services/consumo-poke-api.service'
 
 @Component({
   selector: 'app-c-poke-card',
@@ -7,7 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PokeCardComponent implements OnInit {
 
-  constructor() { }
+  public pokemonPoke: Array<any> = []
+
+  constructor(private ConsumoPokeAPIServicePoke: ConsumoPokeAPIService) {
+    this.ConsumoPokeAPIServicePoke.getConsumo().subscribe((resp: any) => {
+
+    this.pokemonPoke = resp['results']
+    const refPokemon = this.pokemonPoke
+    console.log(refPokemon)
+    console.log('card')
+
+    })
+  }
 
   ngOnInit(): void {
   }

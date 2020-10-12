@@ -1,4 +1,9 @@
-<section *ngFor="let item of pokemonMain">
-    <app-c-poke-card></app-c-poke-card>
+<section *ngFor="let item of pokemonMain; index as i">
+    <div class="contenedor-item-poke">
+        <label>{{ pokemonMain[i]['name'] }}</label>
+        <img src="" alt="img de pokemon" srcset="../../assets/img/cajaX.png">
+        <span id="tipo-pokemon">Tipo de pokemon</span>
+        <span id="tipo-pokemon">Tipo de pokemon</span>
+    </div>
 </section>
 

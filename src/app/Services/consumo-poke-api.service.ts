@@ -8,8 +8,7 @@ export class ConsumoPokeAPIService {
 
   url = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=150'
 
-  constructor(
-    private _http: HttpClient) {
+  constructor(private _http: HttpClient) {
     console.log('inyectando servicio')
   }
 

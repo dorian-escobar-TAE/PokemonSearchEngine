@@ -17,7 +17,6 @@ export class MainComponent implements OnInit {
 
       this.pokemonMain = resp['results']
       console.log(this.pokemonMain)
-      console.log('principal')
 
     })
 
