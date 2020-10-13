@@ -2,8 +2,9 @@
     <div class="contenedor-item-poke">
         <label>{{ pokemonMain[i]['name'] }}</label>
         <img src="" alt="img de pokemon" srcset="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{i+1}}.png">
-        <span id="tipo-pokemon">Tipo de pokemon</span>
-        <span id="tipo-pokemon">Tipo de pokemon</span>
+        <div (load)="cargarPokeTipos(0)">
+            <span id="tipo-pokemon">Tipo de pokemon</span>
+        </div>
     </div>
 </section>
 

@@ -16,6 +16,7 @@ export class MainComponent implements OnInit {
     this.ConsumoPokeAPIServiceMain.getConsumo().subscribe((resp: any) => {
 
       this.pokemonMain = resp['results']
+      const tipos = this.pokemonMain
       console.log(this.pokemonMain)
 
     })
@@ -23,6 +24,10 @@ export class MainComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  cargarPokeTipos(i){
+    console.log('i')
   }
 
 }
