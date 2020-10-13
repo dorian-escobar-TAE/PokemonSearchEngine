@@ -10,6 +10,7 @@ import { ConsumoPokeAPIService } from '../../../Services/consumo-poke-api.servic
 export class PokeCardComponent implements OnInit {
 
   public pokemonPoke: Array<any> = []
+  public pokemonType: Array<any> = []
 
   constructor(private ConsumoPokeAPIServicePoke: ConsumoPokeAPIService) {
     this.ConsumoPokeAPIServicePoke.getConsumo().subscribe((resp: any) => {
@@ -18,8 +19,14 @@ export class PokeCardComponent implements OnInit {
     const refPokemon = this.pokemonPoke
     console.log(refPokemon)
     console.log('card')
-
     })
+
+    this.ConsumoPokeAPIServicePoke.getConsumoPokemonType().subscribe((resp: any) => {
+      this.pokemonType = resp['type']
+      const refPokemonType = this.pokemonType
+      console.log(refPokemonType)
+      console.log('card')
+      })
   }
 
   ngOnInit(): void {

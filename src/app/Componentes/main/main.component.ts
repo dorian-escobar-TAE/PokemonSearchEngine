@@ -10,7 +10,8 @@ import { ConsumoPokeAPIService } from '../../Services/consumo-poke-api.service'
 export class MainComponent implements OnInit {
 
   public pokemonMain: Array<any> = []
-
+  public pokemonType: Array<any> = []
+  
   constructor(private ConsumoPokeAPIServiceMain: ConsumoPokeAPIService) {
 
     this.ConsumoPokeAPIServiceMain.getConsumo().subscribe((resp: any) => {
@@ -20,6 +21,12 @@ export class MainComponent implements OnInit {
 
     })
 
+    this.ConsumoPokeAPIServiceMain.getConsumoPokemonType().subscribe((resp: any) => {
+
+      this.pokemonType = resp['types']
+      console.log(this.pokemonType)
+
+    })
   }
 
   ngOnInit(): void {

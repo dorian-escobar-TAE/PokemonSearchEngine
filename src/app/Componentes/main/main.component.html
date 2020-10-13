@@ -2,8 +2,8 @@
     <div class="contenedor-item-poke">
         <label>{{ pokemonMain[i]['name'] }}</label>
         <img src="" alt="img de pokemon" srcset="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{i+1}}.png">
-        <span id="tipo-pokemon">Tipo de pokemon</span>
-        <span id="tipo-pokemon">Tipo de pokemon</span>
+        <section *ngFor="let item of pokemonType; index as i">
+            <span id="tipo-pokemon">{{ pokemonType[i]['type']['name'] }}</span>
+        </section>
     </div>
 </section>
-
