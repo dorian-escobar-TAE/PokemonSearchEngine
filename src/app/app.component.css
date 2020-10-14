@@ -1,44 +1,28 @@
-.contenido{
-    background-image: url(../assets/img/poke.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 10%;
-    width: 100%;
-    height: 100%;
-}
-header{
-    width: 100%;
-    padding-top: 1%;
-    padding: 1% 0%;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section{
-    margin: 0 2%;
-    padding: 1%;
+.contenedor {
+    /*contorno*/
+    padding: 10px 0;
+    width: 100%;
+    /*centrar todo*/
+    margin: auto;
+    /*escondenmos si algo se sale del margen*/
+    overflow: hidden;
 }
 
-@media screen and (max-width:900px){
-    .contenido{
-        background-size: 110%;
-    }
+body, html {
+    width: 100%;
+    max-width: 1000px;
 }
-@media screen and (max-width:800px){
-    .contenido{
-        background-size: 120%;
-    }
+
+header {
+    width: 100%;
 }
-@media screen and (max-width:750px){
-    .contenido{
-        background-size: 200%;
-    }
-}
-@media screen and (max-width:500px){
-    .contenido{
-        background-size: 300%;
-    }
-}
-@media screen and (max-width:300px){
-    .contenido{
-        background-size: 500%;
-    }
+main {
 }
