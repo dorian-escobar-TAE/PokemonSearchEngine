@@ -5,12 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   public title: String;
   public year: number;
 
-  constructor(){
-    this.title = "ISE - engineering group";
+  constructor() {
+    this.title = "PokeList";
     this.year = 2020
+    
   }
 }
