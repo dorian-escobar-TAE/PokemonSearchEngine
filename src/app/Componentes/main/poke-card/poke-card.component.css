@@ -1,3 +1,13 @@
+<<<<<<< HEAD:src/app/componente-poke/componente-poke.component.css
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1000px;
+    
+
+}
+
 .contenedor-item-poke{
     background-color: aliceblue;
     border-radius: 10px;
@@ -41,6 +51,10 @@
     .contenedor-item-poke span{
         font-size: 90%;
     }
+    .contenedor-item-poke{
+        width: 10%;
+        height: 10%;   
+    }
 }
 @media screen and (max-width:1200px){
     .contenedor-item-poke label{
@@ -52,6 +66,10 @@
     }
     .contenedor-item-poke span{
         font-size: 85%;
+    }
+    .contenedor-item-poke{
+        width: 10%;
+        height: 10%;   
     }
 }
 @media screen and (max-width:1000px){
@@ -65,10 +83,14 @@
     .contenedor-item-poke span{
         font-size: 80%;
     }
+    .contenedor-item-poke{
+        width: 15%;
+        height: 15%;   
+    }
 }
 @media screen and (max-width:950px){
     .contenedor-item-poke label{
-        font-size: 80%;
+        font-size: 75%;
     }
     .contenedor-item-poke img{
         width: 100%;
@@ -77,10 +99,14 @@
     .contenedor-item-poke span{
         font-size: 80%;
     }
+    .contenedor-item-poke{
+        width: 15%;
+        height: 15%;   
+    }
 }
 @media screen and (max-width:800px){
     .contenedor-item-poke label{
-        font-size: 80%;
+        font-size: 70%;
     }
     .contenedor-item-poke img{
         width: 100%;
@@ -89,10 +115,14 @@
     .contenedor-item-poke span{
         font-size: 70%;
     }
+    .contenedor-item-poke{
+        width: 15%;
+        height: 15%;   
+    }
 }
 @media screen and (max-width:700px){
     .contenedor-item-poke label{
-        font-size: 60%;
+        font-size: 65%;
     }
     .contenedor-item-poke img{
         width: 95%;
@@ -100,6 +130,10 @@
     }
     .contenedor-item-poke span{
         font-size: 60%;
+    }
+    .contenedor-item-poke{
+        width: 25%;
+        height: 25%;   
     }
 }
 @media screen and (max-width:500px){
@@ -112,5 +146,10 @@
     }
     .contenedor-item-poke span{
         font-size: 60%;
+    }
+    .contenedor-item-poke{
+        width: 45%;
+        height: 45%;   
     } 
+
 }
